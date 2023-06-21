@@ -8,7 +8,6 @@ const Home = () => {
 	const [colorOrange, setColorOrange] = useState("warning")
 	const [colorGreen, setColorGreen] = useState("success")
 
-
 	const changeState1 = () => {
 		if(colorRed === "danger"){
 			setColorRed("danger glow")
